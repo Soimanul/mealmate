@@ -20,7 +20,11 @@ nvm current # Should print "v22.14.0".
 # Verify npm version:
 npm -v # Should print "10.9.2".
 ```
-Second, run the development server:
+Install dependencies
+```Bash
+npm install --legacy-peer-deps
+```
+Third, run the development server:
 ```bash
 npm run dev
 ```
